@@ -1,5 +1,48 @@
 .display-4{
     font-family: 'Orienta';
+    font-weight: bold;
+}
+
+@media (min-width: 576px){
+.jumbotron {
+    padding: 3rem 2rem;
+    }
+}
+
+.undertitle {
+    font-size: 135%;
+}
+
+.card-title {
+    margin-bottom: 0.3rem;
+}
+
+.card-text{
+    font-size: 95%;
+}
+
+.scroll-learn{
+    margin-top: -1.2%;
+}
+
+.embedder{
+    background-color: #0b1736;
+    padding-bottom: 1%;
+}
+
+.navbar-logo{
+    width: 40%;
+    margin-top: 3%;
+}
+
+.navbar-brand{
+    margin-left:15%;
+    margin-right: -15%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.4rem;
+    padding-left: 1.4rem;
 }
 
 .why_text{
@@ -19,7 +62,7 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: #00487b !important;
+    background: #0b1736 !important;
 }
 #footer h5{
 	padding-left: 10px;
@@ -77,5 +120,9 @@ section .section-title {
     border-left: transparent;
     padding-bottom: 0px;
     margin-bottom: 10px;
-}
+    }
+    .navbar-brand{
+        margin-left:0;
+        margin-right: -15%;
+    }
 }

@@ -9,6 +9,9 @@ def create_app(config_class=Config):
     app.config.from_object(Config)
 
     db.init_app(app)
+    with app.test_request_context():
+        from short_url.models import Links
+        db.create_all()
 
     from short_url.urls.routes import urls
     from short_url.errors.handlers import errors
