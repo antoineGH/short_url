@@ -21,6 +21,9 @@
 				<p class="text-center text-primary your_url"><i class="fas fa-chevron-down"></i></p>
 				{{ form.url(value=url, class="form-control form-control-lg") }}
 				{% endif %}
+				{% if link.accessed > 0 %}
+				<p class="mt-4">Since {{ date_created }}, Your short URL has been accessed {{ link.accessed }} times.</p>
+				{% endif %}
 			</div>	
 	</div>
 </form>

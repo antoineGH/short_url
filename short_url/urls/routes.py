@@ -30,7 +30,8 @@ def retrieve():
     if form.validate_on_submit():
         link = Links.query.filter_by(short_url=form.url.data).first()
         url = link.url
-    return render_template('retrieve.html', title='Retrieve URL', form=form, url=url)
+        date_created = datetime.strftime(link.date_created, '%d %B %Y')
+    return render_template('retrieve.html', title='Retrieve URL', form=form, url=url, link=link, date_created=date_created)
 
 @urls.route('/<string:url>')
 def redirect_url(url):
