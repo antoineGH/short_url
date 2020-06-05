@@ -7,3 +7,4 @@ def encode(url):
 def decode(url):
     url_decoded = base62.decode(url)
     return url_decoded
+
