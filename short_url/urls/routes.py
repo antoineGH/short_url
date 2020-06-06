@@ -7,7 +7,7 @@ from short_url import db
 
 urls = Blueprint('urls', __name__)
 
-@urls.route('/')
+@urls.route('/', methods=['GET', 'POST'])
 @urls.route('/home', methods=['GET', 'POST'])
 def home():
     form = URLForm()
