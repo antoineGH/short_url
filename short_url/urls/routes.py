@@ -27,6 +27,8 @@ def home():
 def retrieve():
     form = URLRetrieveForm()
     url = None
+    link = None
+    date_created = None
     if form.validate_on_submit():
         link = Links.query.filter_by(short_url=form.url.data).first()
         url = link.url
