@@ -1,5 +1,5 @@
 from datetime import datetime
-from flask import Blueprint, render_template, redirect
+from flask import Blueprint, render_template, redirect, url_for, current_app
 from short_url.urls.utils import encode, decode
 from short_url.models import Links
 from short_url.urls.forms import URLForm, URLRetrieveForm
@@ -12,6 +12,10 @@ urls = Blueprint('urls', __name__)
 def home():
     form = URLForm()
     url = None
+
+    app_root = current_app.config['APPLICATION_ROOT']
+    print(app_root)
+    
     if form.validate_on_submit():
         link = Links(url=form.url.data.lower())
         db.session.add(link)

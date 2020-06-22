@@ -7,6 +7,10 @@
 .jumbotron {
     padding: 3rem 2rem;
     }
+
+    .quick-links{
+        margin-left:34%;
+    }
 }
 
 .undertitle {
@@ -70,7 +74,7 @@ section .section-title {
 }
 #footer h5{
 	padding-left: 10px;
-    border-left: 3px solid #eeeeee;
+    /* border-left: 3px solid #eeeeee; */
     color:#ffffff;
 }
 #footer a {
@@ -89,6 +93,7 @@ section .section-title {
 	-moz-transition: .5s all ease;
 	transition: .5s all ease;
 }
+
 #footer ul.social li:hover a i {
 	font-size:30px;
 	margin-top:-10px;
@@ -128,5 +133,9 @@ section .section-title {
     .navbar-brand{
         margin-left:0;
         margin-right: -15%;
+    }
+
+    .footer_bottom {
+        margin-left:25%;
     }
 }

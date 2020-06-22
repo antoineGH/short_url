@@ -7,6 +7,7 @@ db = SQLAlchemy()
 def create_app(config_class=Config):
     app = Flask(__name__)
     app.config.from_object(Config)
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
     db.init_app(app)
     with app.test_request_context():
