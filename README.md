@@ -5,7 +5,6 @@
 -   [General info](#general-info)
 -   [Technical Details](#technical-details)
 -   [Screenshots](#screenshots)
--   [Classes](#classes)
 -   [Technologies](#technologies)
 -   [Setup](#setup)
 
@@ -19,35 +18,7 @@ The main objective of this project idea is to shorten URLs. The main task the ap
 
 ## Screenshots
 
-![Pokemon Screenshot](https://github.com/antoineratat/pokemon_python/blob/master/screenshots/screenshot_1.png?raw=false) ![Pokemon Screenshot](https://github.com/antoineratat/pokemon_python/blob/master/screenshots/screenshot_1.png?raw=false)
-
-## Classes
-
-1.  Pokemon (pokemon_class.py)
-
-    -   is_active()
-    -   get_status()
-    -   is_alive()
-    -   is_target_alive()
-    -   knock_out()
-    -   revive()
-    -   lose_health()
-    -   restore_health()
-    -   damage_boost()
-    -   set_name()
-    -   level_up()
-    -   add_xp()
-    -   check_xp()
-    -   attack()
-
-2.  Trainer (trainer_class.py)
-
-    -   show_pokelist()
-    -   add_pokelist()
-    -   remove_pokelist()
-    -   set_active()
-    -   use_potion()
-    -   attack_trainer()
+![Login Screenshot](https://github.com/antoineratat/ShortURL/blob/master/screenshots/s1.PNG?raw=true)
 
 ## Technologies
 
