@@ -48,8 +48,6 @@ Project is created with:
 
 ## Setup
 
-To run this project, clone it and start index.html
-
 ### On Windows:
 
 Create Environnement Variable :
