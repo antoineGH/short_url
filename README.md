@@ -59,7 +59,7 @@ $ SECRET_KEY = '12345678912345678912345678912312'
 $ // input your own 32 digits secret key
 ```
 
-Import project
+### Import project
 
 ```
 $ git clone https://github.com/antoineratat/ShortURL.git
@@ -70,7 +70,9 @@ $ cd ShortURL
 $ python .\run.py
 ```
 
-Initialize Database (site.db SQlite - Can be connected to other DB in [config.py](config.py) with SQLALCHEMY_DATABASE_URI)
+### Initialize Database
+
+site.db SQliteCan be connected to other DB in [config.py](config.py) with **SQLALCHEMY_DATABASE_URI**
 
 ```
 $ venv\Script\Activate
