@@ -33,7 +33,7 @@ Project is created with:
 -   Flask-WTF v0.14.3
 -   isort v4.3.21
 -   itsdangerous v1.1.0
--   Jinja2 v2.11.2
+-   Jinja2 v2.11.3
 -   lazy-object-proxy v1.4.3
 -   MarkupSafe v1.1.1
 -   mccabe v0.6.1
