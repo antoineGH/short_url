@@ -18,7 +18,7 @@ The main objective of this project idea is to shorten URLs. The main task the ap
 
 ## Screenshots
 
-![Login Screenshot](https://github.com/antoineratat/ShortURL/blob/master/screenshots/s1.PNG?raw=true)
+![Login Screenshot](https://templars.guru/app/github/shorturl/s1.PNG)
 
 ## Technologies
 
